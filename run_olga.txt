@@ -1,0 +1,7 @@
+# run command in terminal:
+cd //home/guy/ICNet-tensorflow
+python /home/guy/ICNet-tensorflow/inference.py --img-path=/home/guy/ICNet-tensorflow/input/1.jpg --model=trainval_bn --save-dir=/home/guy/ICNet-tensorflow/input/tmp_out --dataset=cityscapes
+
+
+python inference.py --img-path=input/1.jpg --model=trainval_bn --dataset=cityscapes --filter-scale=1 --save-dir=/home/guy/ICNet-tensorflow/input/tmp_out/
+
